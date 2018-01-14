@@ -3,5 +3,8 @@ img{
 }
 body{
     text-align: center;
-    font-family:"Arial";
+    font-family:"Merienda";
+    font-style: normal;
+    font-size:40px;
+    background-color:PowderBlue;
 }
