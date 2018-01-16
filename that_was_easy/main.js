@@ -5,3 +5,9 @@ function sayEasy(){
 }
 
 $("#easy").on("click", sayEasy);
+$(document).keypress(key);
+
+function key(event){
+    if(event.charCode == 32)
+       $("#easy").trigger("click");
+}
